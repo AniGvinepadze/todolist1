@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+.Container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 110px 0px 160px 0px;
+  background-color: #15101c;
+}
+
+.Box {
+  width: 583px;
+  height: 758px;
+  display: flex;
+  border-radius: 15px;
+  background-color: #1d1825;
+  padding: 50px 90px 59px 65px;
+  flex-direction: column;
+  gap: 40px;
+}
+.prg{
+    color: white ;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 30px;
+
+
+}
+
+.input {
+  width: 381px;
+  padding: 11px 0px 10px 15px;
+  border-radius: 10px;
+  border: 1px solid #9e78cf;
+  background-color: #1d1825;
+  color: #9e78cf;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+}
+.input::placeholder {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  text-align: left;
+  color: #777777;
+}
+.input-div{
+    height: 40px;
+    display: flex;
+justify-content: space-between;
+align-items: center;
+gap: 10px;
+}
+.Plus{
+    width: 40px;
+height: 40px;
+padding: 4px 0px 0px 0px;
+border-radius: 7px;
+background-color: #9e78cf;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.vertical{
+    width: 2px;
+    height: 25px;
+    background-color: white;
+    position: relative;
+    left: 13px;
+    
+}
+.horisontal{
+    width: 25px;
+    height: 2px;
+    background-color: white;
+    
+}
+
+.firstdiv{
+    width: 432px;
+    height: 65px;
+    border-radius: 10px;
+    background-color: #15101C;
+    display: flex;
+    align-items: center;
+    color: #9E78CF;
+    padding: 21px;
+   margin-bottom: 20px;
+   display:flex;
+   justify-content: space-between;
+}
+
+
+
+.deletedsecondchild{
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  color:#78CFB0;
+  text-decoration: line-through;
+}
